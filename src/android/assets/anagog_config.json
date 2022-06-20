@@ -1,8 +1,9 @@
 {
   "userDefinedStats": {
-    "StringUserDefinedStat" : "STRING",
-    "IntegerUserDefinedStat" : "INTEGER",
-    "DecimalUserDefinedStat" : "DECIMAL"
+    "cms_MissingData": "STRING",
+		"cms_UnmatchingData": "STRING",
+		"cms_FrozenData": "STRING",
+		"cms_AnagogConsent": "STRING"
   },
   "notificationChannelId": "",
   "foregroundChannelId": "",
