@@ -1,9 +1,9 @@
 {
   "userDefinedStats": {
-    "cms_MissingData": "STRING",
-		"cms_UnmatchingData": "STRING",
-		"cms_FrozenData": "STRING",
-		"cms_AnagogConsent": "STRING"
+	"cms_MissingData": "STRING",
+	"cms_UnmatchingData": "STRING",
+	"cms_FrozenData": "STRING",
+	"cms_AnagogConsent": "STRING"
   },
   "notificationChannelId": "",
   "foregroundChannelId": "",
