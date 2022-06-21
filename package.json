@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andregrillo/outsystems-plugin-jedai.git"
+    "url": "git+https://github.com/ZurichPT/outsystems-plugin-jedai.git"
   },
   "keywords": [
     "ecosystem:cordova",
@@ -21,7 +21,7 @@
   "author": "Andre Grillo - OutSystems",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/andregrillo/outsystems-plugin-jedai/issues"
+    "url": "https://github.com/ZurichPT/outsystems-plugin-jedai/issues"
   },
-  "homepage": "https://github.com/andregrillo/outsystems-plugin-jedai#readme"
+  "homepage": "https://github.com/ZurichPT/outsystems-plugin-jedai#readme"
 }
