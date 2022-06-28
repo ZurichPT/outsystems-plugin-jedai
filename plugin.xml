@@ -8,7 +8,8 @@
 	</js-module>
 	
 	<!-- Input Variables -->
-	<preference name="ANAGOG_API_KEY" default="" />
+	<preference name="ANAGOG_IOS_API_KEY" default="" />
+	<preference name="ANAGOG_ANDROID_API_KEY" default="" />
 	<preference name="ANAGOG_FOREGROUND_TITLE" default="" />
 	<preference name="ANAGOG_FOREGROUND_MESSAGE" default="" />
 	<!-- <preference name="ANAGOG_NOTIFICATION_ICON" default="" /> -->
@@ -22,7 +23,7 @@
 		<hook type="after_plugin_install" src="hooks/replace_json.js" />
 
 		<config-file target="AndroidManifest.xml" parent="/manifest/application">
-	        <meta-data android:name="ANAGOG_API_KEY" android:value="$ANAGOG_API_KEY" />
+	        <meta-data android:name="ANAGOG_API_KEY" android:value="$ANAGOG_ANDROID_API_KEY" />
 	        <meta-data android:name="ANAGOG_FOREGROUND_TITLE" android:value="$ANAGOG_FOREGROUND_TITLE" />
 	        <meta-data android:name="ANAGOG_FOREGROUND_MESSAGE" android:value="$ANAGOG_FOREGROUND_MESSAGE" />
 	        <!-- <meta-data android:name="ANAGOG_NOTIFICATION_ICON" android:resource="@mipmap/ic_launcher" /> -->
@@ -38,7 +39,9 @@
 
 	<platform name="ios">
 		<!-- iOS Hook to include license -->
-		<hook type="after_plugin_install" src="hooks/iOS_add_license.js" /> 
+		<config-file target="*-Info.plist" parent="ANAGOG_API_KEY">
+	        <string>$ANAGOG_IOS_API_KEY</string>
+		</config-file>
 
 		<config-file parent="/*" target="config.xml">
 			<feature name="outsystems-plugin-jedai">
