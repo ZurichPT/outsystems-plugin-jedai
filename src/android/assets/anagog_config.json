@@ -11,6 +11,5 @@
   "foregroundMode" : "NEVER",
   "enableLatestMs": true,
   "enableCrashReports": true,
-  "enableInternalLog" : true,
-  "jedaiAutoEnabled": false
+  "enableInternalLog": true
 }
