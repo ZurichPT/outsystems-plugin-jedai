@@ -18,8 +18,8 @@
     "cordova-android",
     "cordova-ios"
   ],
-  "author": "Andre Grillo - OutSystems",
-  "license": "MIT",
+  "author": "Zurich - OutSystems",
+  "license": "ZURICH",
   "bugs": {
     "url": "https://github.com/ZurichPT/outsystems-plugin-jedai/issues"
   },
