@@ -8,8 +8,9 @@
   "notificationChannelId": "",
   "foregroundChannelId": "",
   "enableAudienceAnalytics" : true,
-  "foregroundMode" : "NEVER",
+  "foregroundMode": "NEVER",
   "enableLatestMs": true,
   "enableCrashReports": true,
-  "enableInternalLog": true
+  "enableInternalLog": true,
+  "jedaiAutoEnabled": false	
 }
