@@ -15,7 +15,7 @@
 	<!-- <preference name="ANAGOG_NOTIFICATION_ICON" default="" /> -->
 	
 	<!-- Anagog Jed AI SDK Plugin Dependency  -->
-	<dependency id="cordova-plugin-anagog-jedai" url="@anagog/cordova-jeda" />
+	<dependency id="cordova-plugin-anagog-jedai" url="@anagog/cordova-jedai@1.1.1" />
 
 	<platform name="android">
 
