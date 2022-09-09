@@ -10,5 +10,6 @@ module.exports = function(context) {
           {throw new Error('>>> Unable to write into anagog_config.json: ' + err);}
         else 
           {console.log(">>> anagog_config.json edited successfuly <<<");}
+          {console.log(anagogJSON);}
       });
   }
