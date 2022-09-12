@@ -12,5 +12,7 @@
   "enableLatestMs": true,
   "enableCrashReports": true,
   "enableInternalLog": true,
-  "jedaiAutoEnabled": false	
+  "jedaiAutoEnabled": false,
+  "callCompletionHandlerForRemoteNotifications": false,
+  "overwriteUNUserNotificationCenterDelegate": false
 }
