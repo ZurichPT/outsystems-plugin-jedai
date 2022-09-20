@@ -14,6 +14,6 @@ function getProjectName() {
 
 module.exports = function(context) {
 	var appName = getProjectName();
-    var anagogJSON = path.join(context.opts.projectRoot, 'platforms/ios' + appName + 'Resources/anagog_config.json');
+    var anagogJSON = path.join(context.opts.projectRoot, 'platforms/ios/' + appName + '/Resources/anagog_config.json');
     fs.unlinkSync(anagogJSON);
  }
