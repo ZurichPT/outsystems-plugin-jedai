@@ -38,8 +38,8 @@
 	</platform>
 
 	<platform name="ios">
-		  <hook type="before_plugin_install" src="hooks/ios/replace_json.js" />
-	          <resource-file src="src/ios/anagog_config.json" target="anagog_config.json" />
+		 <!--  <hook type="before_plugin_install" src="hooks/ios/replace_json.js" /> -->
+	         <resource-file src="src/ios/anagog_config.json" target="anagog_config.json" />
 		
 		<!-- iOS Hook to include license -->
 		<config-file target="*-Info.plist" parent="ANAGOG_API_KEY">
