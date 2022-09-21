@@ -13,5 +13,6 @@
   "enableCrashReports": true,
   "enableInternalLog": true,
   "jedaiAutoEnabled": false,
-  "callCompletionHandlerForRemoteNotifications": false
+  "callCompletionHandlerForRemoteNotifications": false, 
+  "overwriteUNUserNotificationCenterDelegate": false
 }
